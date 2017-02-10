@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Decibel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Buttons -->
+    <string name="btn_home_call">Call</string>
+    <string name="btn_home_start">Start Service</string>
+    <string name="btn_home_stop">Stop Service</string>
+    <string name="btn_dialog_save">Save</string>
+    <string name="btn_dialog_discard">Discard</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_home_call_no_permission">Enable Call Phone permission to use this feature</string>
+    <string name="toast_settings_warn_loudness_level">Loudness threshold value must be between 1 and %1$d</string>
+    <string name="toast_settings_msg_loudness_success">%1$d is set as default loudness threshold</string>
+    <string name="toast_settings_err_loudness_fail">Cannot set specified value as default threshold</string>
+    <string name="toast_settings_warn_timer_limit">Timer value must be at least 1 second</string>
+    <string name="toast_settings_msg_timer_success">%1$ds is set as default timer</string>
+    <string name="toast_settings_err_timer_fail">Cannot set specified value as default timer</string>
+    <string name="toast_lls_destroy">Loudness Listener Service stopping</string>
+    <string name="toast_lls_err_timer">Invalid timer interval specified</string>
+    <string name="toast_lls_err_threshold">Invalid threshold value specified for amplitude</string>
+    <string name="toast_lls_err_contact">No default contact saved</string>
+    <string name="toast_lls_calling_contact">Calling %1$s </string>
+    <string name="toast_home_settings_contact_msg_success">Contact with name %1$s and number %1$s is set as default contact</string>
+    <string name="toast_home_settings_contact_err_fail">Cannot set this contact as default</string>
+    <string name="toast_lls_err_params_fail">Cannot start service with invalid parameters</string>
+    <string name="toast_lls_msg_service_start">Loudness Listener Service starting</string>
+
+    <!-- Service -->
+    <string name="service_ll_description">Listens for the ambient sound intensity and calls the specified contact number</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_settings_image">Choose Welcome Image</string>
+    <string name="menu_settings_contact">Choose Default Contact</string>
+    <string name="menu_settings_timer">Set Service Timer</string>
+    <string name="menu_settings_loudness">Set Loudness Threshold</string>
+    <string name="menu_actions">Quick Actions</string>
+    <string name="menu_action_call">Call Default Contact</string>
+    <string name="menu_action_restart">Start Service</string>
+    <string name="menu_action_stop">Stop Service</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_label_timer">Timer Interval (in seconds)</string>
+    <string name="dialog_label_loudness">Loudness Threshold</string>
+    <string name="dialog_heading_timer">Default Timer Settings</string>
+    <string name="dialog_heading_loudness">Default Loudness Threshold</string>
+
+    <!-- Notification -->
+    <string name="notification_content">Loudness listener service started</string>
+</resources>
